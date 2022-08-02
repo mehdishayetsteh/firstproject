@@ -1,0 +1,505 @@
+@media (min-width: 1200px){
+    section.comments{
+        width: 50%;
+        position: relative;
+        top: -200px;
+        left: 10%;
+    }
+    section.comments>div{
+        width: 100%;
+    }
+    section.comments>div>h1{
+        font-size: 25px;
+        color: #1f1f34;
+        font-weight: bold;
+    }
+    section.comments>div>div:nth-of-type(1),section.comments>div>div:nth-of-type(2){
+        width: 100%;
+        height: 170px;
+        display: flex;
+        margin-top: 35px;
+    }
+    section.comments>div>div:nth-of-type(1)>img,section.comments>div>div:nth-of-type(2)>img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    section.comments>div>div:nth-of-type(1)>div>h2,section.comments>div>div:nth-of-type(2)>div>h2{
+        color: #1f1f34;
+    }
+    section.comments>div>div:nth-of-type(1)>div>i,section.comments>div>div:nth-of-type(2)>div>i{
+        color: #7dc22b;
+    }
+    section.comments>div>div:nth-of-type(1)>div>p,section.comments>div>div:nth-of-type(2)>div>p{
+        color: #8f8fa9;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    section.comments>div>div:nth-of-type(1)>a,section.comments>div>div:nth-of-type(2)>a{
+        width: 250px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: #7dc22b;
+        text-align: center;
+        line-height:40px;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    section.comments>section{
+        width: 100%;
+        margin-top: 70px;
+    }
+    section.comments>section>h1{
+        font-size: 25px;
+        color: #1f1f34;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    section.comments>section>form{
+        width: 100%;
+        height: inherit;
+    }
+    section.comments>section>form>div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    section.comments>section>form>div>input[type="text"]{
+        width:47%;
+        height:60px;
+        font-size:15px;
+        display: flex;
+        font-family:"Comic Sans MS";
+        border: transparent;
+        color: #9999a6;
+        padding:12px 20px;
+        background-color: #f3f5fa;
+        margin-bottom: 15px;
+    }
+    section.comments>section>form>textarea{
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: transparent;
+        background-color:#f3f5fa;
+        font-size: 16px;
+        color: #9999a6;
+        resize: none;
+        margin-bottom: 15px;
+    }
+    section.comments>section>form>input.submit{
+        width: 200px;
+        height:50px;
+        border: transparent;
+        border-radius:10px;
+        background-color: #7dc22b;
+        color: whitesmoke;
+    }
+}
+@media (min-width: 990px) and (max-width: 1200px){
+    section.comments{
+        width: 60%;
+        position: relative;
+        top: -200px;
+        left: 10%;
+    }
+    section.comments>div{
+        width: 100%;
+    }
+    section.comments>div>h1{
+        font-size: 25px;
+        color: #1f1f34;
+        font-weight: bold;
+    }
+    section.comments>div>div:nth-of-type(1),section.comments>div>div:nth-of-type(2){
+        width: 100%;
+        height: 170px;
+        display: flex;
+        margin-top: 35px;
+    }
+    section.comments>div>div:nth-of-type(1)>img,section.comments>div>div:nth-of-type(2)>img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    section.comments>div>div:nth-of-type(1)>div>h2,section.comments>div>div:nth-of-type(2)>div>h2{
+        color: #1f1f34;
+    }
+    section.comments>div>div:nth-of-type(1)>div>i,section.comments>div>div:nth-of-type(2)>div>i{
+        color: #7dc22b;
+    }
+    section.comments>div>div:nth-of-type(1)>div>p,section.comments>div>div:nth-of-type(2)>div>p{
+        color: #8f8fa9;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    section.comments>div>div:nth-of-type(1)>a,section.comments>div>div:nth-of-type(2)>a{
+        width: 250px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: #7dc22b;
+        text-align: center;
+        line-height:40px;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    section.comments>section{
+        width: 100%;
+        margin-top: 70px;
+    }
+    section.comments>section>h1{
+        font-size: 25px;
+        color: #1f1f34;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+    section.comments>section>form{
+        width: 100%;
+        height: inherit;
+    }
+    section.comments>section>form>div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    section.comments>section>form>div>input[type="text"]{
+        width:47%;
+        height:60px;
+        font-size:15px;
+        display: flex;
+        font-family:"Comic Sans MS";
+        border: transparent;
+        color: #9999a6;
+        padding:12px 20px;
+        background-color: #f3f5fa;
+        margin-bottom: 15px;
+    }
+    section.comments>section>form>textarea{
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: transparent;
+        background-color:#f3f5fa;
+        font-size: 16px;
+        color: #9999a6;
+        resize: none;
+        margin-bottom: 15px;
+    }
+    section.comments>section>form>input.submit{
+        width: 200px;
+        height:50px;
+        border: transparent;
+        border-radius:10px;
+        background-color: #7dc22b;
+        color: whitesmoke;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px){
+    section.comments{
+        width: 70%;
+        height: 1200px;
+        position: relative;
+        left: 5%;
+    }
+    section.comments>div{
+        width: 100%;
+        height: 610px;
+    }
+    section.comments>div>h1{
+        font-size: 25px;
+        color: #1f1f34;
+        font-weight: bold;
+    }
+    section.comments>div>div:nth-of-type(1),section.comments>div>div:nth-of-type(2){
+        width: 100%;
+        height: 170px;
+        display: flex;
+        margin-top: 35px;
+    }
+    section.comments>div>div:nth-of-type(1)>img,section.comments>div>div:nth-of-type(2)>img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    section.comments>div>div:nth-of-type(1)>div>h2,section.comments>div>div:nth-of-type(2)>div>h2{
+        color: #1f1f34;
+    }
+    section.comments>div>div:nth-of-type(1)>div>i,section.comments>div>div:nth-of-type(2)>div>i{
+        color: #7dc22b;
+    }
+    section.comments>div>div:nth-of-type(1)>div>p,section.comments>div>div:nth-of-type(2)>div>p{
+        color: #8f8fa9;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    section.comments>div>div:nth-of-type(1)>a,section.comments>div>div:nth-of-type(2)>a{
+        width: 250px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: #7dc22b;
+        text-align: center;
+        line-height:40px;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    section.comments>section{
+        width: 100%;
+        height: 610px;
+        margin-top: -100px;
+    }
+    section.comments>section>h1{
+        font-size: 25px;
+        color: #1f1f34;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+    section.comments>section>form{
+        width: 100%;
+        height: inherit;
+    }
+    section.comments>section>form>div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    section.comments>section>form>div>input[type="text"]{
+        width:47%;
+        height:60px;
+        font-size:15px;
+        display: flex;
+        font-family:"Comic Sans MS";
+        border: transparent;
+        color: #9999a6;
+        padding:12px 20px;
+        background-color: #f3f5fa;
+        margin-bottom: 15px;
+    }
+    section.comments>section>form>textarea{
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: transparent;
+        background-color:#f3f5fa;
+        font-size: 16px;
+        color: #9999a6;
+        resize: none;
+        margin-bottom: 15px;
+    }
+    section.comments>section>form>input.submit{
+        width: 200px;
+        height:50px;
+        border: transparent;
+        border-radius:10px;
+        background-color: #7dc22b;
+        color: whitesmoke;
+    }
+}
+@media (min-width: 540px) and (max-width: 768px){
+    section.comments{
+        width: 90%;
+        position: relative;
+        left: 5%;
+    }
+    section.comments>div{
+        width: 100%;
+        height: 610px;
+    }
+    section.comments>div>h1{
+        font-size: 25px;
+        color: #1f1f34;
+        font-weight: bold;
+    }
+    section.comments>div>div:nth-of-type(1),section.comments>div>div:nth-of-type(2){
+        width: 100%;
+        height: 170px;
+        display: flex;
+        margin-top: 35px;
+    }
+    section.comments>div>div:nth-of-type(1)>img,section.comments>div>div:nth-of-type(2)>img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    section.comments>div>div:nth-of-type(1)>div>h2,section.comments>div>div:nth-of-type(2)>div>h2{
+        color: #1f1f34;
+    }
+    section.comments>div>div:nth-of-type(1)>div>i,section.comments>div>div:nth-of-type(2)>div>i{
+        color: #7dc22b;
+    }
+    section.comments>div>div:nth-of-type(1)>div>p,section.comments>div>div:nth-of-type(2)>div>p{
+        color: #8f8fa9;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    section.comments>div>div:nth-of-type(1)>a,section.comments>div>div:nth-of-type(2)>a{
+        width: 250px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: #7dc22b;
+        text-align: center;
+        line-height:40px;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    section.comments>section{
+        width: 100%;
+        height: 610px;
+        margin-top: -100px;
+    }
+    section.comments>section>h1{
+        font-size: 25px;
+        color: #1f1f34;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+    section.comments>section>form{
+        width: 100%;
+        height: inherit;
+    }
+    section.comments>section>form>div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    section.comments>section>form>div>input[type="text"]{
+        width:47%;
+        height:60px;
+        font-size:15px;
+        display: flex;
+        font-family:"Comic Sans MS";
+        border: transparent;
+        color: #9999a6;
+        padding:12px 20px;
+        background-color: #f3f5fa;
+        margin-bottom: 15px;
+    }
+    section.comments>section>form>textarea{
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: transparent;
+        background-color:#f3f5fa;
+        font-size: 16px;
+        color: #9999a6;
+        resize: none;
+        margin-bottom: 15px;
+    }
+    section.comments>section>form>input.submit{
+        width: 200px;
+        height:50px;
+        border: transparent;
+        border-radius:10px;
+        background-color: #7dc22b;
+        color: whitesmoke;
+    }
+}
+@media (max-width: 540px){
+    section.comments{
+        width: 90%;
+        position: relative;
+        height:1000px;
+        left: 5%;
+    }
+    section.comments>div{
+        width: 100%;
+    }
+    section.comments>div>h1{
+        font-size: 25px;
+        color: #1f1f34;
+        font-weight: bold;
+        text-align: center;
+    }
+    section.comments>div>div:nth-of-type(1),section.comments>div>div:nth-of-type(2){
+        width: 100%;
+        height: 170px;
+        display: flex;
+        margin-top: 35px;
+    }
+    section.comments>div>div:nth-of-type(1)>img,section.comments>div>div:nth-of-type(2)>img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    section.comments>div>div:nth-of-type(1)>div>h2,section.comments>div>div:nth-of-type(2)>div>h2{
+        color: #1f1f34;
+    }
+    section.comments>div>div:nth-of-type(1)>div>i,section.comments>div>div:nth-of-type(2)>div>i{
+        color: #7dc22b;
+    }
+    section.comments>div>div:nth-of-type(1)>div>p,section.comments>div>div:nth-of-type(2)>div>p{
+        color: #8f8fa9;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    section.comments>div>div:nth-of-type(1)>a,section.comments>div>div:nth-of-type(2)>a{
+        width: 250px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: #7dc22b;
+        text-align: center;
+        line-height:40px;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    section.comments>section{
+        width: 100%;
+        margin-top: 100px;
+    }
+    section.comments>section>h1{
+        font-size: 25px;
+        color: #1f1f34;
+        font-weight: bold;
+        margin-top: 25px;
+        text-align: center;
+    }
+    section.comments>section>form{
+        width: 100%;
+        height: inherit;
+    }
+    section.comments>section>form>div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    section.comments>section>form>div>input[type="text"]{
+        width:47%;
+        height:60px;
+        font-size:15px;
+        display: flex;
+        font-family:"Comic Sans MS";
+        border: transparent;
+        color: #9999a6;
+        padding:12px 20px;
+        background-color: #f3f5fa;
+        margin-bottom: 15px;
+    }
+    section.comments>section>form>textarea{
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: transparent;
+        background-color:#f3f5fa;
+        font-size: 16px;
+        color: #9999a6;
+        resize: none;
+        margin-bottom: 15px;
+    }
+    section.comments>section>form>input.submit{
+        width: 200px;
+        height:50px;
+        border: transparent;
+        border-radius:10px;
+        background-color: #7dc22b;
+        color: whitesmoke;
+    }
+}

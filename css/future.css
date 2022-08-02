@@ -1,0 +1,219 @@
+@media (min-width: 1200px) {
+    section.future{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 100px;
+        background-color: #f3f5fa;
+    }
+    section.future>img{
+        width: 50%;
+    }
+    section.future>div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 120px;
+        margin-top: 80px;
+    }
+    section.future>div>h4{
+        margin-bottom: 20px;
+        color: #787887;
+    }
+    section.future>div>h1{
+        color: #26263e;
+        font-size: 36px;
+    }
+    section.future>div>h2{
+        color: #34344b;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    section.future>div>p{
+        color: #9999a6;
+        font-size: 16px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    section.future>div>img{
+        width: 170px;
+        height: 25px;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+    section.future{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        background-color: #f3f5fa;
+    }
+    section.future>img{
+        width: 50%;
+    }
+    section.future>div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 120px;
+        margin-top: 80px;
+    }
+    section.future>div>h4{
+        margin-bottom: 20px;
+        color: #787887;
+    }
+    section.future>div>h1{
+        color: #26263e;
+        font-size: 36px;
+    }
+    section.future>div>h2{
+        color: #34344b;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    section.future>div>p{
+        color: #9999a6;
+        font-size: 16px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    section.future>div>img{
+        width: 170px;
+        height: 25px;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    section.future{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        background-color: #f3f5fa;
+    }
+    section.future>img{
+        width: 50%;
+    }
+    section.future>div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 90px;
+        margin-top: 60px;
+    }
+    section.future>div>h4{
+        margin-bottom: 15px;
+        color: #787887;
+    }
+    section.future>div>h1{
+        color: #26263e;
+        font-size: 32px;
+    }
+    section.future>div>h2{
+        color: #34344b;
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    section.future>div>p{
+        color: #9999a6;
+        font-size: 14px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    section.future>div>img{
+        width: 170px;
+        height: 25px;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+    section.future{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        background-color: #f3f5fa;
+    }
+    section.future>img{
+        width: 100%;
+    }
+    section.future>div{
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+    section.future>div>h4{
+        margin-bottom: 20px;
+        color: #787887;
+    }
+    section.future>div>h1{
+        color: #26263e;
+        font-size: 36px;
+    }
+    section.future>div>h2{
+        color: #34344b;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    section.future>div>p{
+        color: #9999a6;
+        font-size: 16px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    section.future>div>img{
+        width: 170px;
+        height: 25px;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+}
+@media (max-width: 540px) {
+    section.future{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        background-color: #f3f5fa;
+    }
+    section.future>img{
+        width: 100%;
+    }
+    section.future>div{
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+    section.future>div>h4{
+        margin-bottom: 20px;
+        color: #787887;
+    }
+    section.future>div>h1{
+        color: #26263e;
+        font-size: 36px;
+    }
+    section.future>div>h2{
+        color: #34344b;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    section.future>div>p{
+        color: #9999a6;
+        font-size: 16px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    section.future>div>img{
+        width: 170px;
+        height: 25px;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+}

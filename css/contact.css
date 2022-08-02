@@ -1,0 +1,100 @@
+@media (min-width: 1200px){
+    section>section.body>section.slider>div>div>div{
+        width: 350px;
+        height: 110px;
+        position: absolute;
+        top: calc(50% - 110px);
+        left: calc(50% - 350px/2);
+        text-align: center;
+    }
+    section>section.body>section.slider>div>div>div>h1{
+        font-size:35px;
+        color: whitesmoke;
+    }
+    section>section.body>section.slider>div>div>i{
+        position: absolute;
+        bottom:50%;
+        right: 1%;
+        color: #8f8fa9;
+    }
+}
+@media (min-width: 990px) and (max-width: 1200px){
+    section>section.body>section.slider>div>div>div{
+        width: 350px;
+        height: 110px;
+        position: absolute;
+        top: calc(50% - 110px);
+        left: calc(50% - 350px/2);
+        text-align: center;
+    }
+    section>section.body>section.slider>div>div>div>h1{
+        font-size:35px;
+        color: whitesmoke;
+    }
+    section>section.body>section.slider>div>div>i{
+        position: absolute;
+        bottom:55%;
+        right: 1%;
+        color: #8f8fa9;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    section>section.body>section.slider>div>div>div{
+        width: 350px;
+        height: 110px;
+        position: absolute;
+        top: 100px;
+        left: calc(50% - 350px/2);
+        text-align: center;
+    }
+    section>section.body>section.slider>div>div>div>h1{
+        font-size:35px;
+        color: whitesmoke;
+    }
+    section>section.body>section.slider>div>div>i{
+        position: absolute;
+        bottom:calc(80% - 100px);
+        right: 1%;
+        color: #8f8fa9;
+    }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+    section>section.body>section.slider>div>div>div{
+        width: 350px;
+        height: 110px;
+        position: absolute;
+        top: 80px;
+        left: calc(50% - 350px/2);
+        text-align: center;
+    }
+    section>section.body>section.slider>div>div>div>h1{
+        font-size:30px;
+        color: whitesmoke;
+    }
+    section>section.body>section.slider>div>div>i{
+        position: absolute;
+        bottom:20px;
+        right: 1%;
+        color: #8f8fa9;
+    }
+}
+@media (max-width: 540px){
+    section>section.body>section.slider>div>div>div{
+        width: 350px;
+        height: 110px;
+        position: absolute;
+        top:45px;
+        left: calc(50% - 350px/2);
+        text-align: center;
+    }
+    section>section.body>section.slider>div>div>div>h1{
+        font-size:20px;
+        color: whitesmoke;
+    }
+    section>section.body>section.slider>div>div>i{
+        position: absolute;
+        bottom:10%;
+        left:38%;
+        color: #8f8fa9;
+    }
+}

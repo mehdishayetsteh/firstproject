@@ -1,0 +1,266 @@
+@media (min-width: 1200px) {
+    section.facts{
+        width: 100%;
+        background-color: #222237;
+        position: relative;
+        top: 100px;
+        display: flex;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    section.facts>h4{
+        font-size: 16px;
+        color: rgb(184, 184, 211);
+    }
+    section.facts>h1{
+        color: white;
+        font-size: 32px;
+        margin-bottom: 100px;
+    }
+    section.facts>div{
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    section.facts>div>span{
+        width: 1px;
+        height: 300px;
+        background-color:#A4A4A4;
+    }
+    section.facts>div>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    section.facts>div>div>img{
+        width: 70px;
+        height: 70px;
+    }
+    section.facts>div>div>p:nth-of-type(1){
+        font-size: 100px;
+        color: rgb(255, 255, 255);
+    }
+    section.facts>div>div>p:nth-of-type(2){
+        font-size: 16px;
+        color: rgb(184, 184, 211);
+        margin-top: 20px;
+    }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+
+    section.facts{
+        width: 100%;
+        background-color: #222237;
+        position: relative;
+        top: 100px;
+        display: flex;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    section.facts>h4{
+        font-size: 16px;
+        color: rgb(184, 184, 211);
+    }
+    section.facts>h1{
+        color: white;
+        font-size: 32px;
+        margin-bottom: 100px;
+    }
+    section.facts>div{
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    section.facts>div>span{
+        width: 1px;
+        height: 300px;
+        background-color:#A4A4A4;
+    }
+    section.facts>div>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    section.facts>div>div>img{
+        width: 70px;
+        height: 70px;
+    }
+    section.facts>div>div>p:nth-of-type(1){
+        font-size: 100px;
+        color: rgb(255, 255, 255);
+    }
+    section.facts>div>div>p:nth-of-type(2){
+        font-size: 16px;
+        color: rgb(184, 184, 211);
+        margin-top: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+
+    section.facts{
+        width: 100%;
+        background-color: #222237;
+        position: relative;
+        top: 100px;
+        display: flex;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    section.facts>h4{
+        font-size: 16px;
+        color: rgb(184, 184, 211);
+    }
+    section.facts>h1{
+        color: white;
+        font-size: 32px;
+        margin-bottom: 100px;
+    }
+    section.facts>div{
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    section.facts>div>span{
+        width: 1px;
+        height: 300px;
+        background-color:#A4A4A4;
+    }
+    section.facts>div>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    section.facts>div>div>img{
+        width: 70px;
+        height: 70px;
+    }
+    section.facts>div>div>p:nth-of-type(1){
+        font-size: 95px;
+        color: rgb(255, 255, 255);
+    }
+    section.facts>div>div>p:nth-of-type(2){
+        font-size: 14px;
+        color: rgb(184, 184, 211);
+        margin-top: 20px;
+    }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+    section.facts{
+        width: 100%;
+        background-color: #222237;
+        position: relative;
+        display: flex;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    section.facts>h4{
+        font-size: 16px;
+        color: rgb(184, 184, 211);
+    }
+    section.facts>h1{
+        color: white;
+        font-size: 32px;
+        margin-bottom: 100px;
+    }
+    section.facts>div{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
+    section.facts>div>span{
+        display: none;
+    }
+    section.facts>div>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    section.facts>div>div>img{
+        width: 70px;
+        height: 70px;
+    }
+    section.facts>div>div>p:nth-of-type(1){
+        font-size: 100px;
+        color: rgb(255, 255, 255);
+    }
+    section.facts>div>div>p:nth-of-type(2){
+        font-size: 16px;
+        color: rgb(184, 184, 211);
+        margin-top: 20px;
+    }
+}
+@media (max-width: 540px) {
+    section.facts{
+        width: 100%;
+        background-color: #222237;
+        position: relative;
+        display: flex;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    section.facts>h4{
+        font-size: 16px;
+        color: rgb(184, 184, 211);
+    }
+    section.facts>h1{
+        color: white;
+        font-size: 32px;
+        margin-bottom: 100px;
+    }
+    section.facts>div{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
+    section.facts>div>span{
+        display: none;
+    }
+    section.facts>div>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    section.facts>div>div>img{
+        width: 70px;
+        height: 70px;
+    }
+    section.facts>div>div>p:nth-of-type(1){
+        font-size: 100px;
+        color: rgb(255, 255, 255);
+    }
+    section.facts>div>div>p:nth-of-type(2){
+        font-size: 16px;
+        color: rgb(184, 184, 211);
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,331 @@
+@media (min-width: 1200px){
+    div#blog{
+        width: 100%;
+        height: 1400px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 120px;
+        top: 100px;
+    }
+    div#blog>div.itemblog{
+        width: 30%;
+        height: 450px;
+        border-radius: 15px;
+    }
+    div#blog>div.itemblog>img{
+        width: 360px;
+        height: 300px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        border-radius: 15px;
+    }
+    div#blog>div.itemblog>h5{
+        font-size:20px;
+        margin-left:10%;
+        text-transform: capitalize;
+        color: #26263e;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 20px;
+    }
+    div#blog>div.itemblog>a{
+        text-decoration: none;
+        text-transform: capitalize;
+        display: block;
+        color: rgba(38, 38, 62, 0.9);
+        margin-top: 20px;
+        margin-left:10%;
+        transition: all 100ms linear;
+        margin-bottom: 40px;
+    }
+    div#blog>div.itemblog>a:hover{
+        color: #7dc22b;
+    }
+    div#blog>div.itemblog>div{
+        width: 40px;
+        height: 40px;
+        background-color: #f5e9e9;
+        border-radius:50%;
+        text-align: center;
+        margin-top: -480px;
+        margin-left: 5%;
+        position: absolute;
+        transition: 300ms;
+    }
+    div#blog>div.itemblog>div>h1{
+        font-size:15px
+    }
+    div#blog>div.itemblog:hover>div{
+        background-color: #7dc22b;
+    }
+}
+@media (min-width: 990px) and (max-width: 1200px){
+    div#blog{
+        width: 100%;
+        height: 1500px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -100px;
+    }
+    div#blog>div.itemblog{
+        width: 45%;
+        height: 450px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+    }
+    div#blog>div.itemblog>img{
+        width: 360px;
+        height: 300px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        border-radius: 15px;
+    }
+    div#blog>div.itemblog>h5{
+        font-size:20px;
+        margin-left:10%;
+        text-transform: capitalize;
+        color: #26263e;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 20px;
+    }
+    div#blog>div.itemblog>a{
+        text-decoration: none;
+        text-transform: capitalize;
+        display: block;
+        color: rgba(38, 38, 62, 0.9);
+        margin-top: 20px;
+        margin-left:10%;
+        transition: all 100ms linear;
+        margin-bottom: 40px;
+    }
+    div#blog>div.itemblog>a:hover{
+        color: #7dc22b;
+    }
+    div#blog>div.itemblog>div{
+        width: 40px;
+        height: 40px;
+        background-color: #f5e9e9;
+        border-radius:50%;
+        text-align: center;
+        margin-top: -480px;
+        margin-left: 5%;
+        position: absolute;
+        transition: 300ms;
+    }
+    div#blog>div.itemblog>div>h1{
+        font-size:15px
+    }
+    div#blog>div.itemblog:hover>div{
+        background-color: #7dc22b;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px){
+    div#blog{
+        width: 100%;
+        height: 1750px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 120px;
+        top:0;
+    }
+    div#blog>div.itemblog{
+        width: 370px;
+        height: 450px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border-radius: 15px;
+    }
+    div#blog>div.itemblog>img{
+        width: 360px;
+        height: 300px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        border-radius: 15px;
+    }
+    div#blog>div.itemblog>h5{
+        font-size:20px;
+        margin-left:10%;
+        text-transform: capitalize;
+        color: #26263e;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 20px;
+    }
+    div#blog>div.itemblog>a{
+        text-decoration: none;
+        text-transform: capitalize;
+        display: block;
+        color: rgba(38, 38, 62, 0.9);
+        margin-top: 20px;
+        margin-left:10%;
+        transition: all 100ms linear;
+        margin-bottom: 40px;
+    }
+    div#blog>div.itemblog>a:hover{
+        color: #7dc22b;
+    }
+    div#blog>div.itemblog>div{
+        width: 40px;
+        height: 40px;
+        background-color: #f5e9e9;
+        border-radius:50%;
+        text-align: center;
+        margin-top: -480px;
+        margin-left: 5%;
+        position: absolute;
+        transition: 300ms;
+    }
+    div#blog>div.itemblog>div>h1{
+        font-size:15px
+    }
+    div#blog>div.itemblog:hover>div{
+        background-color: #7dc22b;
+    }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+    div#blog{
+        width: 100%;
+        height: 3250px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 120px;
+        top:0;
+    }
+    div#blog>div.itemblog{
+        width: 370px;
+        height: 450px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border-radius: 15px;
+    }
+    div#blog>div.itemblog>img{
+        width: 360px;
+        height: 300px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        border-radius: 15px;
+    }
+    div#blog>div.itemblog>h5{
+        font-size:20px;
+        margin-left:10%;
+        text-transform: capitalize;
+        color: #26263e;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 20px;
+    }
+    div#blog>div.itemblog>a{
+        text-decoration: none;
+        text-transform: capitalize;
+        display: block;
+        color: rgba(38, 38, 62, 0.9);
+        margin-top: 20px;
+        margin-left:10%;
+        transition: all 100ms linear;
+        margin-bottom: 40px;
+    }
+    div#blog>div.itemblog>a:hover{
+        color: #7dc22b;
+    }
+    div#blog>div.itemblog>div{
+        width: 40px;
+        height: 40px;
+        background-color: #f5e9e9;
+        border-radius:50%;
+        text-align: center;
+        margin-top: -480px;
+        margin-left: 5%;
+        position: absolute;
+        transition: 300ms;
+    }
+    div#blog>div.itemblog>div>h1{
+        font-size:15px
+    }
+    div#blog>div.itemblog:hover>div{
+        background-color: #7dc22b;
+    }
+}
+@media (max-width: 540px){
+    div#blog{
+        width: 100%;
+        height:3500px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        top:0;
+    }
+    div#blog>div.itemblog{
+        width: 370px;
+        height: 450px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border-radius: 15px;
+    }
+    div#blog>div.itemblog>img{
+        width: 360px;
+        height: 300px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        border-radius: 15px;
+    }
+    div#blog>div.itemblog>h5{
+        font-size:20px;
+        margin-left:10%;
+        text-transform: capitalize;
+        color: #26263e;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 20px;
+    }
+    div#blog>div.itemblog>a{
+        text-decoration: none;
+        text-transform: capitalize;
+        display: block;
+        color: rgba(38, 38, 62, 0.9);
+        margin-top: 20px;
+        margin-left:10%;
+        transition: all 100ms linear;
+        margin-bottom: 40px;
+    }
+    div#blog>div.itemblog>a:hover{
+        color: #7dc22b;
+    }
+    div#blog>div.itemblog>div{
+        width: 40px;
+        height: 40px;
+        background-color: #f5e9e9;
+        border-radius:50%;
+        text-align: center;
+        margin-top: -480px;
+        margin-left: 5%;
+        position: absolute;
+        transition: 300ms;
+    }
+    div#blog>div.itemblog>div>h1{
+        font-size:15px
+    }
+    div#blog>div.itemblog:hover>div{
+        background-color: #7dc22b;
+        color: whitesmoke;
+    }
+}

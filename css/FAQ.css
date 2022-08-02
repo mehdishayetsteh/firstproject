@@ -1,0 +1,479 @@
+@media (min-width: 1200px) {
+    section.FAQ{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 120px;
+    }
+    section.FAQ>div.cards{
+        padding-top: 120px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+    section.FAQ>h4{
+         color: #93939f;
+     }
+    section.FAQ>h1{
+        font-size: 36px;
+        color: #26263e;
+    }
+    .flip-card {
+        background-color: transparent;
+        border: 1px solid #f3f5fa;
+        border-radius: 15px;
+        perspective: 1000px;
+        margin: 0 auto;
+    }
+
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+        position: relative;
+        border-radius: 15px;
+        width: 350px;
+        height: 270px;
+        text-align: center;
+        transition: transform 1.2s;
+        transform-style: preserve-3d;
+    }
+
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 15px;
+        padding: 50px;
+    }
+
+    .flip-card-front {
+        background-color: #ffffff;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flip-card-front>div.question{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        background-color: #7dc22b;
+        color: white;
+        padding-top: 12px;
+        justify-self: left;
+        border-radius: 50%;
+    }
+    .flip-card-front>h1{
+        margin-top: 30px;
+        color: #26263e;
+    }
+
+    .flip-card-back {
+        background-color: #ffffff;
+        color: white;
+        transform: rotateY(180deg);
+        text-align: left;
+    }
+    .flip-card-back>h1{
+        color: #26263e;
+    }
+    .flip-card-back>p{
+        color: #9c9ca7;
+        margin-top: 30px;
+    }
+
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+    section.FAQ{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 120px;
+    }
+    section.FAQ>div.cards{
+        padding-top: 120px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+    section.FAQ>h4{
+        color: #93939f;
+    }
+    section.FAQ>h1{
+        font-size: 36px;
+        color: #26263e;
+    }
+    .flip-card {
+        background-color: transparent;
+        border: 1px solid #f3f5fa;
+        border-radius: 15px;
+        perspective: 1000px;
+        margin: 0 auto;
+    }
+
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+        position: relative;
+        border-radius: 15px;
+        width: 310px;
+        height: 270px;
+        text-align: center;
+        transition: transform 1.2s;
+        transform-style: preserve-3d;
+    }
+
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 15px;
+        padding: 50px;
+    }
+
+    .flip-card-front {
+        background-color: #ffffff;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flip-card-front>div.question{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        background-color: #7dc22b;
+        color: white;
+        padding-top: 12px;
+        justify-self: left;
+        border-radius: 50%;
+    }
+    .flip-card-front>h1{
+        margin-top: 30px;
+        color: #26263e;
+    }
+
+    .flip-card-back {
+        background-color: #ffffff;
+        color: white;
+        transform: rotateY(180deg);
+        text-align: left;
+    }
+    .flip-card-back>h1{
+        color: #26263e;
+    }
+    .flip-card-back>p{
+        color: #9c9ca7;
+        margin-top: 30px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 990px)  {
+    section.FAQ{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 120px;
+        position: relative;
+        top: 100px;
+    }
+    section.FAQ>div.cards{
+        padding-top: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+    section.FAQ>h4{
+        color: #93939f;
+    }
+    section.FAQ>h1{
+        font-size: 36px;
+        color: #26263e;
+    }
+    .flip-card {
+        background-color: transparent;
+        border: 1px solid #f3f5fa;
+        border-radius: 15px;
+        perspective: 1000px;
+        margin: 0 auto;
+    }
+
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+        position: relative;
+        border-radius: 15px;
+        width: 350px;
+        height: 270px;
+        text-align: center;
+        transition: transform 1.2s;
+        transform-style: preserve-3d;
+    }
+
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 15px;
+        padding: 50px;
+    }
+
+    .flip-card-front {
+        background-color: #ffffff;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flip-card-front>div.question{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        background-color: #7dc22b;
+        color: white;
+        padding-top: 12px;
+        justify-self: left;
+        border-radius: 50%;
+    }
+    .flip-card-front>h1{
+        margin-top: 30px;
+        color: #26263e;
+    }
+
+    .flip-card-back {
+        background-color: #ffffff;
+        color: white;
+        transform: rotateY(180deg);
+        text-align: left;
+    }
+    .flip-card-back>h1{
+        color: #26263e;
+    }
+    .flip-card-back>p{
+        color: #9c9ca7;
+        margin-top: 30px;
+    }
+
+}
+@media (min-width: 540px) and (max-width: 768px)  {
+    section.FAQ{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 120px;
+        position: relative;
+        top: 100px;
+    }
+    section.FAQ>div.cards{
+        padding-top: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+    section.FAQ>h4{
+        color: #93939f;
+    }
+    section.FAQ>h1{
+        font-size: 36px;
+        color: #26263e;
+    }
+    .flip-card {
+        background-color: transparent;
+        border: 1px solid #f3f5fa;
+        border-radius: 15px;
+        perspective: 1000px;
+        margin: 0 auto;
+    }
+
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+        position: relative;
+        border-radius: 15px;
+        width: 350px;
+        height: 270px;
+        text-align: center;
+        transition: transform 1.2s;
+        transform-style: preserve-3d;
+    }
+
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 15px;
+        padding: 50px;
+    }
+
+    .flip-card-front {
+        background-color: #ffffff;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flip-card-front>div.question{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        background-color: #7dc22b;
+        color: white;
+        padding-top: 12px;
+        justify-self: left;
+        border-radius: 50%;
+    }
+    .flip-card-front>h1{
+        margin-top: 30px;
+        color: #26263e;
+    }
+
+    .flip-card-back {
+        background-color: #ffffff;
+        color: white;
+        transform: rotateY(180deg);
+        text-align: left;
+    }
+    .flip-card-back>h1{
+        color: #26263e;
+    }
+    .flip-card-back>p{
+        color: #9c9ca7;
+        margin-top: 30px;
+    }
+
+}
+@media (max-width: 540px)  {
+    section.FAQ{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 120px;
+        position: relative;
+        top: 100px;
+    }
+    section.FAQ>div.cards{
+        padding-top: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+    section.FAQ>h4{
+        color: #93939f;
+    }
+    section.FAQ>h1{
+        font-size: 36px;
+        color: #26263e;
+    }
+    .flip-card {
+        background-color: transparent;
+        border: 1px solid #f3f5fa;
+        border-radius: 15px;
+        perspective: 1000px;
+        margin: 0 auto;
+    }
+
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+        position: relative;
+        border-radius: 15px;
+        width: 350px;
+        height: 270px;
+        text-align: center;
+        transition: transform 1.2s;
+        transform-style: preserve-3d;
+    }
+
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 15px;
+        padding: 50px;
+    }
+
+    .flip-card-front {
+        background-color: #ffffff;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flip-card-front>div.question{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        background-color: #7dc22b;
+        color: white;
+        padding-top: 12px;
+        justify-self: left;
+        border-radius: 50%;
+    }
+    .flip-card-front>h1{
+        margin-top: 30px;
+        color: #26263e;
+    }
+
+    .flip-card-back {
+        background-color: #ffffff;
+        color: white;
+        transform: rotateY(180deg);
+        text-align: left;
+    }
+    .flip-card-back>h1{
+        color: #26263e;
+    }
+    .flip-card-back>p{
+        color: #9c9ca7;
+        margin-top: 30px;
+    }
+
+}

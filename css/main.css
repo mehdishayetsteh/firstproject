@@ -1,0 +1,102 @@
+/*make menu*/
+@import "menu.css";
+/*end menu*/
+/*make slider*/
+@import "slider.css";
+/*end slider*/
+/*make learn*/
+@import "learn.css";
+/*end learn*/
+/*make contact*/
+@import "contact.css";
+/*end contact*/
+/*make footer*/
+@import "footer.css";
+/*end footer*/
+/*make form*/
+@import "form.css";
+/*end form*/
+/*make office*/
+@import "office.css";
+/*end office*/
+/*make future*/
+@import "future.css";
+/*end future*/
+/*make blog*/
+@import "blog.css";
+/*end blog*/
+/*make detail*/
+@import "detail.css";
+/*end detail*/
+/*make tags*/
+@import "tags.css";
+/*end tags*/
+/*make comments*/
+@import "comments.css";
+/*end comments*/
+/*make work*/
+@import "work.css";
+/*end work*/
+/*make facts*/
+@import "facts.css";
+/*end facts*/
+/*make about*/
+@import "about.css";
+/*end about*/
+/*make about2*/
+@import "about2.css";
+/*end about2*/
+/*make testimonials*/
+@import "testimonials.css";
+/*end testimonials*/
+/*make FAQ*/
+@import "FAQ.css";
+/*end FAQ*/
+/*make Services*/
+@import "Services.css";
+/*end Services*/
+/*make about-me*/
+@import "about-me.css";
+/*end about-me*/
+/*make pricing*/
+@import "pricing.css";
+/*end pricing*/
+/*make portfolio Single*/
+@import "single.css";
+/*end portfolio Single*/
+/*make grid*/
+@import "grid.css";
+/*end grid*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#scroll{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    overflow: hidden;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 99999999999999999999;
+}
+#value{
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color: #001a2e;
+}

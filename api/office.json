@@ -1,0 +1,26 @@
+[
+  {
+    "city": "Austin",
+    "address": "22 texas west hills",
+    "email": "needhelp@gmail.com",
+    "phone": "888-9999-0000"
+  },
+  {
+    "city": "boston",
+    "address": "5 federal street boston",
+    "email": "needhelp@gmail.com",
+    "phone": "888-9999-0000"
+  },
+  {
+    "city": "New York",
+    "address": "8 street brokiyn new york",
+    "email": "needhelp@gmail.com",
+    "phone": "888-9999-0000"
+  },
+  {
+    "city": "baltimore",
+    "address": "3 lombabr 50 baitimore",
+    "email": "needhelp@gmail.com",
+    "phone": "888-9999-0000"
+  }
+]

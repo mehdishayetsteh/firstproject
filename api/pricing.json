@@ -1,0 +1,68 @@
+[
+  {
+    "level": "basic",
+    "price": "$49",
+    "price1": " /monthly",
+    "description": "10 pages",
+    "description1": "500 gp storage",
+    "description2": "10 sdd database",
+    "description3": "free coustom domain",
+    "description4": "24/7 free support",
+    "plan": "select plan"
+  },
+  {
+    "level": "business",
+    "price": "$59",
+    "price1": " /monthly",
+    "description": "10 pages",
+    "description1": "500 gp storage",
+    "description2": "10 sdd database",
+    "description3": "free coustom domain",
+    "description4": "24/7 free support",
+    "plan": "select plan"
+  },
+  {
+    "level": "professional",
+    "price": "$69",
+    "price1": " /monthly",
+    "description": "10 pages",
+    "description1": "500 gp storage",
+    "description2": "10 sdd database",
+    "description3": "free coustom domain",
+    "description4": "24/7 free support",
+    "plan": "select plan"
+  },
+  {
+    "level": "basic",
+    "price": "$49",
+    "price1": " /monthly",
+    "description": "10 pages",
+    "description1": "500 gp storage",
+    "description2": "10 sdd database",
+    "description3": "free coustom domain",
+    "description4": "24/7 free support",
+    "plan": "select plan"
+  },
+  {
+    "level": "business",
+    "price": "$59",
+    "price1": " /monthly",
+    "description": "10 pages",
+    "description1": "500 gp storage",
+    "description2": "10 sdd database",
+    "description3": "free coustom domain",
+    "description4": "24/7 free support",
+    "plan": "select plan"
+  },
+  {
+    "level": "professional",
+    "price": "$69",
+    "price1": " /monthly",
+    "description": "10 pages",
+    "description1": "500 gp storage",
+    "description2": "10 sdd database",
+    "description3": "free coustom domain",
+    "description4": "24/7 free support",
+    "plan": "select plan"
+  }
+]

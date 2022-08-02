@@ -1,0 +1,22 @@
+[
+  {
+    "image": "images/SLIDE1.png",
+    "member": "Kevin Martin",
+    "description": "Developer"
+  },
+  {
+    "image": "images/SLIDE2.png",
+    "member": "Jessica Brown ",
+    "description": "Designer"
+  },
+  {
+    "image": "images/SLIDE1.png",
+    "member": "Mike Hardson ",
+    "description": "Photographer"
+  },
+  {
+    "image": "images/SLIDE2.png",
+    "member": "Camila Rose",
+    "description": "Manager"
+  }
+]

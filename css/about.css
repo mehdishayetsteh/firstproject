@@ -1,0 +1,784 @@
+@media (min-width: 1200px){
+    section.about{
+        width: 100%;
+        position: relative;
+        top: 250px;
+        background-color: #ffffff;
+    }
+    section.about>div{
+        width: inherit;
+        height: auto;
+    }
+    section.about>div>div:nth-of-type(1){
+        width: 70%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15%;
+    }
+    section.about>div>div:nth-of-type(1)>img{
+        width: 47%;
+        height: 450px;
+    }
+    section.about>div>div:nth-of-type(2){
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 13%;
+        width: 70%;
+        margin-top: 100px;
+        height: 190px;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(1){
+        width: 50%;
+        color: #1f1f34;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(1)>h1{
+        font-size: 40px;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(2),section.about>div>div:nth-of-type(2)>div:nth-of-type(3){
+        width: 20%;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(2)>p,section.about>div>div:nth-of-type(2)>div:nth-of-type(3)>p{
+        color: #8f8fa9;
+        font-size: 18px;
+    }
+    section.about>section{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    section.about>section>img{
+        width: 50%;
+        height: 420px;
+    }
+    section.about>section>div{
+        width: 50%;
+        height: 420px;
+        background-color: #f3f5fa;
+    }
+    section.about>section>div>i{
+        margin-top:10%;
+        display: block;
+        margin-left: 10%;
+        font-size: 15px;
+        color: #606067;
+    }
+    section.about>section>div>h1{
+        margin-top:3px;
+        margin-left: 10%;
+        font-size: 35px;
+        color: #1f1f34;
+    }
+    section.about>section>div>p{
+        width: 50%;
+        margin-top:20px;
+        margin-left: 10%;
+        font-size: 18px;
+        color: #8f8fa9;
+    }
+    section.team2{
+        width: 70%;
+        height: 800px;
+        position: relative;
+        left: 15%;
+        top: 300px;
+        text-align: center;
+    }
+    section.team2>i{
+        font-size: 20px;
+        color: #8f8fa9;
+    }
+    section.team2>h1{
+        margin-top: 5px;
+        font-size: 45px;
+        color: #1f1f34;
+    }
+    section.team2>div#team{
+        width: 100%;
+        height: 500px;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.team2>div#team>div.itemteam{
+        width: 20%;
+        height: 450px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+    }
+    section.team2>div#team>div.itemteam>img{
+        width: 100%;
+        height: 200px;
+        border-radius: 50%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+    section.team2>div#team>div.itemteam>h4{
+        color: #1f1f34;
+        font-size:20px;
+        font-weight: bold;
+    }
+    section.team2>div#team>div.itemteam>h5{
+        font-size:15px;
+        color: #8f8fa9;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5px;
+    }
+    section.team2>div#team>div.itemteam>div.hover,section.team2>div#team>div.itemteam>div.hover1,section.team2>div#team>div.itemteam>div.hover2,section.team2>div#team>div.itemteam>div.hover3{
+        width: 20%;
+        height: 40px;
+        position: absolute;
+        top: 300px;
+        background-color: #ffffff;
+        left:4%;
+        display: flex;
+        justify-content: space-evenly;
+        transition: 300ms;
+    }
+    section.team2>div#team>div.itemteam>div.hover>a,section.team2>div#team>div.itemteam>div.hover1>a,section.team2>div#team>div.itemteam>div.hover2>a,section.team2>div#team>div.itemteam>div.hover3>a{
+        font-size: 15px;
+        line-height:40px;
+        color: #7dc22b;
+    }
+    section.team2>div#team>div.itemteam>div.hover1{
+        left: 28%;
+    }
+    section.team2>div#team>div.itemteam>div.hover2{
+        left: 52%;
+    }
+    section.team2>div#team>div.itemteam>div.hover3{
+        left: 76%;
+    }
+}
+@media (min-width: 990px) and (max-width: 1200px){
+    section.about{
+        width: 100%;
+        position: relative;
+    }
+    section.about>div{
+        width: inherit;
+        height: auto;
+    }
+    section.about>div>div:nth-of-type(1){
+        width: 70%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15%;
+    }
+    section.about>div>div:nth-of-type(1)>img{
+        width: 47%;
+        height: 450px;
+    }
+    section.about>div>div:nth-of-type(2){
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 13%;
+        width: 70%;
+        margin-top: 100px;
+        height: 190px;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(1){
+        width: 50%;
+        color: #1f1f34;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(1)>h1{
+        font-size: 40px;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(2),section.about>div>div:nth-of-type(2)>div:nth-of-type(3){
+        width: 20%;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(2)>p,section.about>div>div:nth-of-type(2)>div:nth-of-type(3)>p{
+        color: #8f8fa9;
+        font-size: 18px;
+    }
+    section.about>section{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    section.about>section>img{
+        width: 50%;
+        height: 420px;
+    }
+    section.about>section>div{
+        width: 100%;
+        height: 420px;
+        background-color: #f3f5fa;
+    }
+    section.about>section>div>i{
+        margin-top:10%;
+        display: block;
+        margin-left: 10%;
+        font-size: 15px;
+        color: #606067;
+    }
+    section.about>section>div>h1{
+        margin-top:3px;
+        margin-left: 10%;
+        font-size: 35px;
+        color: #1f1f34;
+    }
+    section.about>section>div>p{
+        width: 50%;
+        margin-top:20px;
+        margin-left: 10%;
+        font-size: 18px;
+        color: #8f8fa9;
+    }
+    section.team2{
+        width: 70%;
+        height: 600px;
+        position: relative;
+        left: 15%;
+        top: 100px;
+        text-align: center;
+    }
+    section.team2>i{
+        font-size: 20px;
+        color: #8f8fa9;
+    }
+    section.team2>h1{
+        margin-top: 5px;
+        font-size: 45px;
+        color: #1f1f34;
+    }
+    section.team2>div#team{
+        width: 100%;
+        height: 500px;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.team2>div#team>div.itemteam{
+        width: 20%;
+        height: 450px;
+        margin-bottom: 10px;
+        border-radius:50%;
+    }
+    section.team2>div#team>div.itemteam>img{
+        width: 100%;
+        height: 200px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        border-radius:50%;
+    }
+    section.team2>div#team>div.itemteam>h4{
+        color: #1f1f34;
+        font-size:20px;
+        font-weight: bold;
+    }
+    section.team2>div#team>div.itemteam>h5{
+        font-size:15px;
+        color: #8f8fa9;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5px;
+    }
+    section.team2>div#team>div.itemteam>div.hover,section.team2>div#team>div.itemteam>div.hover1,section.team2>div#team>div.itemteam>div.hover2,section.team2>div#team>div.itemteam>div.hover3{
+        width: 20%;
+        height: 40px;
+        position: absolute;
+        top: 300px;
+        background-color: #ffffff;
+        left:4%;
+        display: flex;
+        justify-content: space-evenly;
+        transition: 300ms;
+    }
+    section.team2>div#team>div.itemteam>div.hover>a,section.team2>div#team>div.itemteam>div.hover1>a,section.team2>div#team>div.itemteam>div.hover2>a,section.team2>div#team>div.itemteam>div.hover3>a{
+        font-size: 14px;
+        line-height:40px;
+        color: #7dc22b;
+    }
+    section.team2>div#team>div.itemteam>div.hover1{
+        left: 28%;
+    }
+    section.team2>div#team>div.itemteam>div.hover2 {
+        left: 52%;
+    }
+    section.team2>div#team>div.itemteam>div.hover3 {
+        left: 76%;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px){
+    section.about{
+        width: 100%;
+        position: relative;
+        top: 150px;
+    }
+    section.about>div{
+        width: inherit;
+        height: auto;
+    }
+    section.about>div>div:nth-of-type(1){
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    section.about>div>div:nth-of-type(1)>img{
+        width: 40%;
+        height: 450px;
+    }
+    section.about>div>div:nth-of-type(2){
+        display: flex;
+        justify-content: space-evenly;
+        margin-left:5%;
+        width: 90%;
+        margin-top: 100px;
+        height: 190px;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(1){
+        width: 50%;
+        color: #1f1f34;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(1)>h1{
+        font-size: 40px;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(2),section.about>div>div:nth-of-type(2)>div:nth-of-type(3){
+        width: 20%;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(2)>p,section.about>div>div:nth-of-type(2)>div:nth-of-type(3)>p{
+        color: #8f8fa9;
+        font-size: 18px;
+    }
+    section.about>section{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    section.about>section>img{
+        width: 50%;
+        height: 420px;
+    }
+    section.about>section>div{
+        width: 100%;
+        height: 420px;
+        background-color: #f3f5fa;
+    }
+    section.about>section>div>i{
+        margin-top:10%;
+        display: block;
+        margin-left: 10%;
+        font-size: 15px;
+        color: #606067;
+    }
+    section.about>section>div>h1{
+        margin-top:3px;
+        margin-left: 10%;
+        font-size: 35px;
+        color: #1f1f34;
+    }
+    section.about>section>div>p{
+        width: 50%;
+        margin-top:20px;
+        margin-left: 10%;
+        font-size: 18px;
+        color: #8f8fa9;
+    }
+    section.team2{
+        width: 70%;
+        height: 1100px;
+        position: relative;
+        left: 15%;
+        top: 300px;
+        text-align: center;
+    }
+    section.team2>i{
+        font-size: 20px;
+        color: #8f8fa9;
+    }
+    section.team2>h1{
+        margin-top: 5px;
+        font-size: 45px;
+        color: #1f1f34;
+    }
+    section.team2>div#team{
+        width: 100%;
+        height: 500px;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.team2>div#team>div.itemteam{
+        width: 40%;
+        height: 450px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+    }
+    section.team2>div#team>div.itemteam>img{
+        width: 100%;
+        height: 200px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+    section.team2>div#team>div.itemteam>h4{
+        color: #1f1f34;
+        font-size:20px;
+        font-weight: bold;
+    }
+    section.team2>div#team>div.itemteam>h5{
+        font-size:15px;
+        color: #8f8fa9;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5px;
+    }
+    section.team2>div#team>div.itemteam>div.hover,section.team2>div#team>div.itemteam>div.hover1 {
+        width: 40%;
+        height: 40px;
+        position: absolute;
+        top: 280px;
+        background-color: #ffffff;
+        left:6.6%;
+        display: flex;
+        justify-content: space-evenly;
+        transition: 300ms;
+    }
+    section.team2>div#team>div.itemteam>div.hover>a,section.team2>div#team>div.itemteam>div.hover1>a,section.team2>div#team>div.itemteam>div.hover2>a,section.team2>div#team>div.itemteam>div.hover3>a{
+        font-size: 15px;
+        line-height:40px;
+        color: #7dc22b;
+    }
+    section.team2>div#team>div.itemteam>div.hover1 {
+        left: 53.4%;
+    }
+    section.team2>div#team>div.itemteam:nth-of-type(2):hover>div.hover1{
+        top:160px;
+        visibility: visible;
+    }
+    section.team2>div#team>div.itemteam>div.hover2,section.team2>div#team>div.itemteam>div.hover3{
+        width: 40%;
+        height: 40px;
+        position: absolute;
+        top: 740px;
+        left: 6.6%;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-evenly;
+        transition: 300ms;
+    }
+    section.team2>div#team>div.itemteam>div.hover3{
+        left: 53.4%;
+    }
+}
+@media (min-width: 540px) and (max-width: 768px){
+    section.about{
+        width: 100%;
+        position: relative;
+        top: 150px;
+    }
+    section.about>div{
+        width: inherit;
+        height: auto;
+    }
+    section.about>div>div:nth-of-type(1){
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.about>div>div:nth-of-type(1)>img{
+        width: 50%;
+        height: 450px;
+        margin-left: calc(50% - 25%);
+        margin-top: 30px;
+    }
+    section.about>div>div:nth-of-type(2){
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(1)>h1{
+        font-size: 40px;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(2)>p,section.about>div>div:nth-of-type(2)>div:nth-of-type(3)>p{
+        width: 50%;
+        margin: 15px auto;
+        text-align: center;
+        color: #8f8fa9;
+        font-size: 18px;
+    }
+    section.about>section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.about>section>img{
+        width: 50%;
+        height: 420px;
+    }
+    section.about>section>div{
+        width: 50%;
+        height: 420px;
+        background-color: #f3f5fa;
+    }
+    section.about>section>div>i{
+        margin-top:10%;
+        display: block;
+        margin-left: 10%;
+        font-size: 15px;
+        color: #606067;
+    }
+    section.about>section>div>h1{
+        margin-top:3px;
+        margin-left: 10%;
+        font-size: 35px;
+        color: #1f1f34;
+    }
+    section.about>section>div>p{
+        margin-top:20px;
+        margin-left: 10%;
+        font-size: 18px;
+        color: #8f8fa9;
+    }
+    section.team2{
+        width: 90%;
+        height: 1300px;
+        position: relative;
+        left:5%;
+        top: 300px;
+        text-align: center;
+    }
+    section.team2>i{
+        font-size: 20px;
+        color: #8f8fa9;
+    }
+    section.team2>h1{
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 45px;
+        color: #1f1f34;
+    }
+    section.team2>div#team{
+        width: 100%;
+        height: 500px;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.team2>div#team>div.itemteam{
+        width: 40%;
+        height: 450px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+    }
+    section.team2>div#team>div.itemteam>img{
+        width: 100%;
+        height: 200px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        border-radius: 50%;
+    }
+    section.team2>div#team>div.itemteam>h4{
+        color: #1f1f34;
+        font-size:20px;
+        font-weight: bold;
+    }
+    section.team2>div#team>div.itemteam>h5{
+        font-size:15px;
+        color: #8f8fa9;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5px;
+    }
+    section.team2>div#team>div.itemteam>div.hover,section.team2>div#team>div.itemteam>div.hover1{
+        width: 40%;
+        height: 40px;
+        position: absolute;
+        top: 280px;
+        background-color: #ffffff;
+        left:6.6%;
+        display: flex;
+        justify-content: space-evenly;
+        transition: 300ms;
+    }
+    section.team2>div#team>div.itemteam>div.hover>a,section.team2>div#team>div.itemteam>div.hover1>a,section.team2>div#team>div.itemteam>div.hover2>a,section.team2>div#team>div.itemteam>div.hover3>a{
+        font-size: 15px;
+        line-height:40px;
+        color: #7dc22b;
+    }
+    section.team2>div#team>div.itemteam>div.hover1{
+        left: 53.4%;
+    }
+    section.team2>div#team>div.itemteam>div.hover2,section.team2>div#team>div.itemteam>div.hover3{
+        width: 40%;
+        height: 40px;
+        position: absolute;
+        top: 750px;
+        left: 6.6%;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-evenly;
+        transition: 300ms;
+    }
+    section.team2>div#team>div.itemteam>div.hover3{
+        left: 53.4%;
+    }
+}
+@media (max-width: 540px){
+    section.about{
+        width: 100%;
+        position: relative;
+        top: 150px;
+    }
+    section.about>div{
+        width: inherit;
+        height: auto;
+    }
+    section.about>div>div:nth-of-type(1){
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.about>div>div:nth-of-type(1)>img{
+        width: 50%;
+        height: 450px;
+        margin-left: calc(50% - 25%);
+        margin-top: 30px;
+    }
+    section.about>div>div:nth-of-type(2){
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(1)>h1{
+        font-size: 40px;
+    }
+    section.about>div>div:nth-of-type(2)>div:nth-of-type(2)>p,section.about>div>div:nth-of-type(2)>div:nth-of-type(3)>p{
+        width: 50%;
+        margin: 15px auto;
+        text-align: center;
+        color: #8f8fa9;
+        font-size: 18px;
+    }
+    section.about>section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.about>section>img{
+        width: 50%;
+        height: 420px;
+    }
+    section.about>section>div{
+        width: 50%;
+        height: 420px;
+        background-color: #f3f5fa;
+    }
+    section.about>section>div>i{
+        margin-top:10%;
+        display: block;
+        margin-left: 10%;
+        font-size: 15px;
+        color: #606067;
+    }
+    section.about>section>div>h1{
+        margin-top:3px;
+        margin-left: 10%;
+        font-size: 35px;
+        color: #1f1f34;
+    }
+    section.about>section>div>p{
+        margin-top:20px;
+        margin-left: 10%;
+        font-size: 18px;
+        color: #8f8fa9;
+    }
+    section.team2{
+        width: 90%;
+        height: 1400px;
+        position: relative;
+        left:5%;
+        top: 300px;
+        text-align: center;
+    }
+    section.team2>i{
+        font-size: 20px;
+        color: #8f8fa9;
+    }
+    section.team2>h1{
+        margin-top: 5px;
+        font-size: 45px;
+        color: #1f1f34;
+    }
+    section.team2>div#team{
+        width: 100%;
+        height: 500px;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    section.team2>div#team>div.itemteam{
+        width: 40%;
+        height: 450px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+    }
+    section.team2>div#team>div.itemteam>img{
+        width: 100%;
+        height: 200px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        border-radius: 50%;
+    }
+    section.team2>div#team>div.itemteam>h4{
+        color: #1f1f34;
+        font-size:20px;
+        font-weight: bold;
+    }
+    section.team2>div#team>div.itemteam>h5{
+        font-size:15px;
+        color: #8f8fa9;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5px;
+    }
+    section.team2>div#team>div.itemteam>div.hover,section.team2>div#team>div.itemteam>div.hover1{
+        width: 40%;
+        height: 40px;
+        position: absolute;
+        top: 280px;
+        background-color: #ffffff;
+        left:6.6%;
+        display: flex;
+        justify-content: space-evenly;
+        transition: 300ms;
+    }
+    section.team2>div#team>div.itemteam>div.hover>a,section.team2>div#team>div.itemteam>div.hover1>a,section.team2>div#team>div.itemteam>div.hover2>a,section.team2>div#team>div.itemteam>div.hover3>a{
+        font-size: 15px;
+        line-height:40px;
+        color: #7dc22b;
+    }
+    section.team2>div#team>div.itemteam>div.hover1{
+        left: 53.4%;
+    }
+    section.team2>div#team>div.itemteam>div.hover2,section.team2>div#team>div.itemteam>div.hover3{
+        width: 40%;
+        height: 40px;
+        position: absolute;
+        top: 750px;
+        left: 6.6%;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    section.team2>div#team>div.itemteam>div.hover3{
+        left: 53.4%;
+    }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "image": "images/SLIDE1.png",
+    "title": "Learn about what makes",
+    "title2":  " elix the best.",
+    "description": "Lorem ipsum dolor sit amet, consectetur "
+  },
+  {
+    "image": "images/SLIDE2.png",
+    "title": "We are trusted by more",
+    "title2":  "than 3880 clients.",
+    "description": "Lorem ipsum dolor sit amet, consectetur "
+  },
+  {
+    "image": "images/SLIDE1.png",
+    "title": "Be wise and choose the",
+    "title2":  " best elix theme.",
+    "description": "Lorem ipsum dolor sit amet, consectetur "
+  }
+]
